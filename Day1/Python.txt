@@ -1,10 +1,42 @@
 Python
 
-Commenting:
+1.Commenting:
 In Python anything we write after a # is called comment.
 This is usually used to tell info about your script or any info about a code of block.
 
-Strings:
+2.Strings:
 In python a group of text is called strings.
 A string can be surrounded by '' single quotes or double quotes ""
 example: "This is a string" 'This is a string'
+
+3.Variables:
+Programming languages offer a method of storing data for reuse. If there is a greeting we want to present, a date we need to reuse, or a user ID we need to remember we can create a
+variable which can store a value. In Python, we assign variables by using the equals sign (=).
+
+example:
+# We've defined the variable "meal" here to the name of the food we ate for breakfast!
+meal = "An english muffin"
+
+# Printing out breakfast
+print("Breakfast:")
+print(meal)
+
+# Now update meal to be lunch!
+meal = "South Indian Meal"
+
+# Printing out lunch
+print("Lunch:")
+print(meal)
+
+# Now update "meal" to be dinner
+meal = "Dosa"
+# Printing out dinner
+print("Dinner:")
+print(meal)
+
+4.Errors:
+Two common errors that we encounter while writing Python are SyntaxError and NameError.
+
+    SyntaxError means there is something wrong with the way your program is written — punctuation that does not belong, a command where it is not expected, or a missing parenthesis can all trigger a SyntaxError.
+
+    A NameError occurs when the Python interpreter sees a word it does not recognize. Code that contains something that looks like a variable but was never defined will throw a NameError.
