@@ -1,1 +1,10 @@
+Python
 
+Commenting:
+In Python anything we write after a # is called comment.
+This is usually used to tell info about your script or any info about a code of block.
+
+Strings:
+In python a group of text is called strings.
+A string can be surrounded by '' single quotes or double quotes ""
+example: "This is a string" 'This is a string'
