@@ -1,0 +1,9 @@
+SHELL SCRIPTING
+1. How to define a varibale?
+VARIABLE="NAME"
+if we want to access a variable from environment we can use export VARIABLE="NAME" but the problem is this will be erased once we restart the machine or logout
+To persist the variable, we can save them in the ~/.bashrc file this file should be opened in root mode to make this changes
+POSITIONAL PARAMETER
+$0,$1,$2 these are called positional parameters
+The script file itself will take the positional parameter $0
+example ./script.sh 
