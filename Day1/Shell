@@ -6,4 +6,18 @@ To persist the variable, we can save them in the ~/.bashrc file this file should
 POSITIONAL PARAMETER
 $0,$1,$2 these are called positional parameters
 The script file itself will take the positional parameter $0
-example ./script.sh 
+example ./script.sh $1 $2 
+#!/bin/bash
+REGION=$1
+
+if [ $REGION == "us-east-1" ]
+then
+    echo "this is in US"
+fi
+
+Special Parameter
+$? --> Provides exit status of last command
+0 means that the last executed command was successful, other numbers denote the command was not successful
+**ls /tmp**
+**echo $?   # prints 0 if /tmp exists**
+$# --> Prints the number of Parameters provided to the script
