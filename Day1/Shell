@@ -16,8 +16,18 @@ then
 fi
 
 Special Parameter
-$? --> Provides exit status of last command
+1. $? --> Provides exit status of last command
 0 means that the last executed command was successful, other numbers denote the command was not successful
-**ls /tmp**
-**echo $?   # prints 0 if /tmp exists**
-$# --> Prints the number of Parameters provided to the script
+ls /tmp
+echo $?   # prints 0 if /tmp exists
+
+2. $# --> Prints the number of Parameters provided to the script
+Suppose you have a script myscript.sh:
+#!/bin/bash
+echo "Number of arguments: $#"
+
+run it:
+./myscript.sh arg1 arg2 arg3
+
+Output:
+Number of arguments: 3
